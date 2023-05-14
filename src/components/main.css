@@ -1,0 +1,54 @@
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 0.8rem;
+    color: black;
+    border-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    width: 80%;
+    margin: 3rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 6rem;
+    margin-top: 2rem;
+
+
+}
+
+.img-top img:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
+
+ul li img {
+    display: block;
+    margin: 1rem;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+
+}
+
+ul li :hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
