@@ -1,6 +1,6 @@
 import { Box } from "@mui/system"
 import { Link } from "react-router-dom";
-import Main from "./Main";
+import Main from "../Main";
 import "../components/home.css";
 import HTML from "../components/img/HTML.png";
 import CSS from "../components/img/CSS.png";

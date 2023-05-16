@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar/Navbar";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
+import Home from "./components/pages/Home";
+import Contact from "./components/pages/Contact";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Register from "./components/Register";
-import Login from "./components/Login";
+import Register from "./components/pages/Register";
+import Login from "./components/pages/Login";
 import Footer from "./components/Footer";
-import Proyects from "./components/Proyects";
-import { AutotypeProvider } from "./components/Autotype";
+import Proyects from "./components/pages/Proyects";
+import { AutotypeProvider } from "./components/context/Autotype";
 
 export default function App() {
   return (

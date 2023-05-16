@@ -1,6 +1,6 @@
 import { Box, Typography, Grid } from "@mui/material";
 import Hero from "../components/img/hero.png";
-import { AutotypeContext } from './Autotype';
+import { AutotypeContext } from './context/Autotype';
 import "./main.css";
 
 

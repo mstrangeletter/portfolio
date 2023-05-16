@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import "../components/footer.css";
-import { AutotypeContext } from './Autotype';
+import { AutotypeContext } from './context/Autotype';
 
 function Footer() {
   const [isTyping, setIsTyping] = useState(true);
