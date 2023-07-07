@@ -12,12 +12,8 @@ export default function Main() {
                         MIGUEL CARTAGENA
                     </Typography>
                     <Typography variant="subtitle1" className="text">
-                        Soy periodista y desarrollador frontend con experiencia en proyectos académicos y de forma independiente, especializado en React JS. <br />Me apasiona el deporte, especialmente el mundo roller y el Brazilian JiuJitsu. Actualmente estoy buscando mi primera oportunidad como dev frontend junior en el mundo laboral.
+                        Soy desarrollador frontend con experiencia en proyectos independiente, especializado en React JS. <br />Me apasiona el deporte, especialmente el mundo roller y el Brazilian JiuJitsu. Actualmente estoy abierto a oportunidades para seguir desarrollandome en el mundo laboral.
                     </Typography>
-                    
-
-
-
                         <div
                             onClick={() => window.open('https://www.linkedin.com/in/miguelcartagenaa/')}
                             className="rrssItem"
@@ -29,8 +25,6 @@ export default function Main() {
                         <Link to="./Contact">
                             <div className="rrssItem"></div>
                         </Link>
-
-
                         <div className="home-content-wrapper">
                             <div className="home-content-item">
                                 <Button
@@ -50,16 +44,14 @@ export default function Main() {
                                         color="warning"
                                         sx={{
                                             mt: "5rem",
-                                            m: "5rem",
-                                            
+                                            m: "5rem",                             
                                         }}
                                     >
                                         Mis proyectos
                                     </Button>
                                 </Link>
                             </div>
-                        </div>
-                    
+                        </div>                    
                 </Box>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
