@@ -1,0 +1,84 @@
+section {
+    background-color: #CDCDCD;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem;
+    margin: 2rem;
+
+
+}
+
+#current-study {
+    margin: 3rem;
+}
+
+#current-study li {
+    margin: 2rem;
+
+}
+
+#findMe {
+    margin: 4rem;
+}
+
+.rrss {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+
+    
+  
+}
+
+
+
+#edu-class1 {
+    color: black;
+    font-weight: 500;
+    padding-left: 2rem;
+
+
+}
+
+#entreParentesis {
+    color: #364156;
+    font-style: italic;
+    font-size: medium;
+
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(3fr , 1);
+    flex-direction: column;
+    background-color: #DFF8EB;
+
+}
+.homeTextContent {
+    margin:3rem;
+}
+.rrssItem {
+    margin: 3rem;
+    
+}
+#sectionStudies {
+    background-color: white;
+}

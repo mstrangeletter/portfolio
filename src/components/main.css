@@ -13,6 +13,67 @@
     margin: 3rem;
 }
 
+
+.linkedinImg {
+    display: flex;
+    background-image: url("../img/linkedin.png");
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+.gitImg {
+    background-image: url("../img/git.png");
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-size: contain;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+.emailImg {
+    background-image: url("../img/correo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+.linkedinImg {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+}
+
+
 .text {
     display: flex;
     flex-direction: column;
