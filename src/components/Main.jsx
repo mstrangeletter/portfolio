@@ -1,6 +1,6 @@
 import { Box, Typography, Grid, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import Hero from "/components/img/hero.png";
+import Hero from "../components/img/hero.png";
 import "./main.css";
 
 export default function Main() {
