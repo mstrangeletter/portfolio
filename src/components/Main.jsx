@@ -12,7 +12,7 @@ export default function Main() {
                         MIGUEL CARTAGENA
                     </Typography>
                     <Typography variant="subtitle1" className="text">
-                        Soy desarrollador frontend con experiencia en proyectos independiente, especializado en React JS. <br />Me apasiona el deporte, especialmente el mundo roller y el Brazilian JiuJitsu. Actualmente estoy abierto a oportunidades para seguir desarrollandome en el mundo laboral.
+                        Soy desarrollador frontend con experiencia en proyectos independientes, especializado en React JS. <br />Me apasiona el deporte, especialmente el mundo roller y el Brazilian JiuJitsu. Actualmente estoy abierto a oportunidades laborales para seguir desarrollandome como programador y avanzar al siguiente nivel.
                     </Typography>
                         <div
                             onClick={() => window.open('https://www.linkedin.com/in/miguelcartagenaa/')}
