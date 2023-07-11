@@ -1,22 +1,22 @@
 import { Box } from "@mui/system"
 import Main from "../Main";
 import "../pages/home.css";
-import HTML from "../img/HTML.png";
-import CSS from "../img/CSS.png";
-import JS from "../img/JS.png";
-import TS from "../img/TS.png";
-import Python from "../img/Python.png";
-import Bootstrap from "../img/bootstrap.png";
-import Mui from "../img/materialui.png";
-import Tailwind from "../img/tailwind.png";
-import React from "../img/React.png";
-import Next from "../img/nextjs.png";
-import Figma from "../img/figma.png";
-import Adobe from "../img/adobe.png";
-import Git from "../img/git.png";
-import Vscode from "../img/vscode.png";
-import Jira from "../img/jira.png";
-import Study from "../img/study.jpeg";
+import HTML from "/img/HTML.png";
+import CSS from "/img/CSS.png";
+import JS from "/img/JS.png";
+import TS from "/img/TS.png";
+import Python from "/img/Python.png";
+import Bootstrap from "/img/bootstrap.png";
+import Mui from "/img/materialui.png";
+import Tailwind from "/img/tailwind.png";
+import React from "/img/React.png";
+import Next from "/img/nextjs.png";
+import Figma from "/img/figma.png";
+import Adobe from "/img/adobe.png";
+import Git from "/img/git.png";
+import Vscode from "/img/vscode.png";
+import Jira from "/img/jira.png";
+import Study from "/img/study.jpeg";
 import { Grid, Typography } from "@mui/material";
 
 export default function Home() {

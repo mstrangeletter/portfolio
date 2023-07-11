@@ -1,8 +1,8 @@
 import { Grid, Card, CardContent, Typography } from "@mui/material";
-import harmoniProp from "../img/harmoniProp.png";
-import mammaMia from "../img/mammaMia.png";
-import naturalPic from "../img/naturalPic.png";
-import Pokedex from "../img/pokedex.png";
+import harmoniProp from "/img/harmoniProp.png";
+import mammaMia from "/img/mammaMia.png";
+import naturalPic from "/img/naturalPic.png";
+import Pokedex from "/img/pokedex.png";
 import "../pages/proyects.css";
 const cardData = [
   { id: 1, title: "Natural Pic", content: "HTML - CSS - Javascript - Material UI - React", img: naturalPic, dir: "https://admirable-stroopwafel-d63cdd.netlify.app/" },
