@@ -2,6 +2,7 @@ import { Box, Typography, Grid, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Hero from "/img/hero.png";
 import "./main.css";
+import LKdin from "/img/linkedin.png"
 
 export default function Main() {
   const handleLinkedInClick = () => {
@@ -33,10 +34,27 @@ export default function Main() {
           </div>
           <div className="home-content-wrapper">
             <div className="home-content-item">
+
+            <Button
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1YC9ZC7ZfF6eHzj31CMTCLc0gW7gSVwrK/view?usp=drive_link",
+                    "_blank"
+                  )
+                }
+                variant="contained"
+                color="warning"
+                sx={{
+                    m: "2rem",
+                    mt: "-3rem",
+                }}
+              >
+                CV
+              </Button>
               <Button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1t-H6Ot_8IqLhmBlkzE3B7HqEgV3H9RLu/view?usp=share_link",
+                    "https://www.linkedin.com/in/miguelcartagenaa/",
                     "_blank"
                   )
                 }
@@ -46,7 +64,7 @@ export default function Main() {
                     mt: "-3rem",
                 }}
               >
-                CV
+                Linkedin
               </Button>
               <Link to="/Proyects">
                 <Button
@@ -57,7 +75,7 @@ export default function Main() {
                       mt: "-3rem",
                   }}
                 >
-                  Dev
+                  Dev's
                 </Button>
               </Link>
             </div>
