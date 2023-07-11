@@ -17,7 +17,7 @@ import Git from "../img/git.png";
 import Vscode from "../img/vscode.png";
 import Jira from "../img/jira.png";
 import Study from "../img/study.jpeg";
-import { Button, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 export default function Home() {
 
