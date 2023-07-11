@@ -198,7 +198,7 @@ export default function Home() {
                     </Typography>
                     <Box className="education">
                         <Typography id="edu-class1" variant="h5">
-                            Desafio Latam <span id="entreParentesis">(En Proceso de Proyecto Final)</span>
+                            Desafío Latam - Desarrollador FrontEnd en React
                         </Typography>
                         <div>
                             <ol>

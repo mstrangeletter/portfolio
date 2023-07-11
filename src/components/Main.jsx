@@ -2,7 +2,7 @@ import { Box, Typography, Grid, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Hero from "/img/hero.png";
 import "./main.css";
-import LKdin from "/img/linkedin.png"
+
 
 export default function Main() {
   const handleLinkedInClick = () => {
