@@ -8,7 +8,7 @@ const cardData = [
   { id: 1, title: "Natural Pic", content: "HTML - CSS - Javascript - Material UI - React", img: naturalPic, dir: "https://admirable-stroopwafel-d63cdd.netlify.app/" },
   { id: 2, title: "Mamma Mia", content: "HTML - CSS - Javascript - Material UI - React", img: mammaMia, dir: "https://resilient-crumble-958a66.netlify.app/" },
   { id: 3, title: "HarmoniProp", content: "HTML - CSS - Javascript - Material UI - React", img: harmoniProp, dir: "https://harmoniprop-proyect.netlify.app/" },
-  { id: 3, title: "Pokedex", content: "HTML - CSS - Javascript - Tailwind - React", img: Pokedex, dir: "https://symphonious-lily-e7f8fa.netlify.app/" },
+  { id: 4, title: "Pokedex", content: "HTML - CSS - Javascript - Tailwind - React", img: Pokedex, dir: "https://symphonious-lily-e7f8fa.netlify.app/" },
 ];
 
 const Proyects = () => {
