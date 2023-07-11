@@ -150,6 +150,7 @@ export default function Home() {
                             }
                         }}
                     >
+                          
                         <Grid item xs={12} md={6}>
                             <Box px={2}>
                                 <h2>Estudios actuales</h2>

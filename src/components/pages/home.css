@@ -82,3 +82,21 @@ ol {
 #sectionStudies {
     background-color: white;
 }
+
+ul li img {
+    display: block;
+    margin: 1rem;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+
+ul li:hover {
+    transform: scale3d(1.5, 1.5, 0.3);
+    -webkit-transform: scale3d(1.5, 1.5, 0.3);
+    -moz-transform: scale3d(1.5, 1.5, 0.3);
+   
+}
+
+

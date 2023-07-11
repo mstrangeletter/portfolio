@@ -17,10 +17,10 @@ export default function Main() {
     <Grid container spacing={2}>
       <Grid item xs={12} md={6}>
         <Box sx={{ mt: "10rem", ml: "5rem", mb: "10rem" }}>
-          <Typography variant="h2" gutterBottom>
+          <Typography className="animated fadeInLeftBig" variant="h2" gutterBottom>
             MIGUEL CARTAGENA
           </Typography>
-          <Typography variant="subtitle1" className="text">
+          <Typography variant="subtitle1" className="text animatedText fadeIn ">
             Soy desarrollador frontend con experiencia en proyectos independientes, especializado en React JS.
             <br />
             Me apasiona el deporte, especialmente el mundo roller y el Brazilian JiuJitsu. Actualmente estoy abierto a oportunidades laborales para seguir desarrollándome como programador y avanzar al siguiente nivel.
@@ -36,6 +36,7 @@ export default function Main() {
             <div className="home-content-item">
 
             <Button
+                className="btn"
                 onClick={() =>
                   window.open(
                     "https://drive.google.com/file/d/1YC9ZC7ZfF6eHzj31CMTCLc0gW7gSVwrK/view?usp=drive_link",
@@ -52,6 +53,7 @@ export default function Main() {
                 CV
               </Button>
               <Button
+              className="btn"
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/miguelcartagenaa/",
@@ -68,6 +70,7 @@ export default function Main() {
               </Button>
               <Link to="/Proyects">
                 <Button
+                    className="btn"
                   variant="contained"
                   color="warning"
                   sx={{
@@ -84,7 +87,7 @@ export default function Main() {
       </Grid>
       <Grid item xs={12} md={6}>
         <Box className="img-top">
-          <img className="img" src={Hero} alt="Hero Image" />
+          <img className="img kenburns-left" src={Hero} alt="Hero Image" />
         </Box>
       </Grid>
     </Grid>
