@@ -154,11 +154,10 @@ export default function Home() {
                             <Box px={2}>
                                 <h2>Estudios actuales</h2>
                                 <ol id="currentStudy">
-                                    <li>Fase de proyecto final en Bootcamp FrontEnd Developer Desafío Latam</li>
-                                    <li>CS50: Introduction to Computer Science - Harvard (semana 4)</li>
+                                    <li>CS50: Introduction to Computer Science - Harvard</li>
                                     <li>Redux en React - Next (Udemy)</li>
                                     <li>JQuery - Node js (Udemy)</li>
-                                    <li>Phyton (CS50 - Edutin Academy)</li>
+                                    <li>Phyton (Edutin Academy)</li>
                                 </ol>
                             </Box>
                         </Grid>
