@@ -11,70 +11,39 @@
     border-top-left-radius: 0.25rem;
     width: 80%;
     margin: 3rem;
-}
-
-
-.linkedinImg {
-    display: flex;
+  }
+  
+  .linkedinImg,
+  .gitImg,
+  .emailImg {
+    display: inline-block;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .linkedinImg {
     background-image: url("../img/linkedin.png");
-    background-size: contain;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
-}
-
-.gitImg {
+  }
+  
+  .gitImg {
     background-image: url("../img/git.png");
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    background-size: contain;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
-}
-
-.emailImg {
+  }
+  
+  .emailImg {
     background-image: url("../img/correo.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
-}
-
-.linkedinImg {
-    display: inline-block;
-    padding: 5px 10px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
-}
-
-
-.text {
+  }
+  
+  .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,34 +51,28 @@
     width: 90%;
     padding-left: 3rem;
     padding-bottom: 5rem;
-
-}
-
-.img {
+  }
+  
+  .img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 6rem;
     margin-top: 2rem;
-
-
-}
-
-.img-top img:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-}
-
-
-ul li img {
+  }
+  
+  .img-top img:hover {
+    transform: scale(1.1);
+  }
+  
+  ul li img {
     display: block;
     margin: 1rem;
-    -webkit-transform:scale(1.2);transform:scale(1.2);
-
-}
-
-ul li :hover {
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
+    transform: scale(1.2);
+  }
+  
+  ul li:hover {
     transform: rotateY(180deg);
     transform-style: preserve-3d;
-}
+  }
+  

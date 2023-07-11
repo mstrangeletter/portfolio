@@ -32,15 +32,7 @@ const Proyects = () => {
     }}>
     
       <div>
-        <Typography sx={{
-          mt: "2rem",
-          mb: "3rem",
-          mr: "10rem",
-          fontWeight: "700"
-        }}
-          variant="h3">
-          Proyectos
-        </Typography>
+        
       </div>
 
       <Grid container spacing={2}>
