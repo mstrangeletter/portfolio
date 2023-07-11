@@ -25,14 +25,14 @@ function Footer() {
   return (
     <div className="container-text">
       <footer>
-        <Container  maxWidth="sm">
-          <Typography  variant="h4">WEBELOPER</Typography>
-          <Typography  variant="body2">Este sitio está desarrollado con:</Typography>
-          <Typography  variant="body1">
+        <Container maxWidth="sm">
+          <Typography variant="h4" align="center">WEBELOPER</Typography>
+          <Typography variant="body2" align="center">Este sitio está desarrollado con:</Typography>
+          <Typography variant="body1" align="center">
             <span id="typing-text"></span>
           </Typography>
-          <Typography className="container-subtext"variant="caption" color="info">
-           Miguel Cartagena © {new Date().getFullYear()} All Rights Reserved
+          <Typography className="container-subtext" variant="caption" color="info" align="center">
+            Miguel Cartagena © {new Date().getFullYear()} All Rights Reserved
           </Typography>
         </Container>
       </footer>

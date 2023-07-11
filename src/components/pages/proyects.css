@@ -1,0 +1,35 @@
+.main {
+    min-height: 100vh;
+    margin: 5rem;
+  }
+  
+  .mainProyects {
+    height: 100vh;
+    margin: 3rem;
+    border: 10px solid red;
+  }
+  
+  .container-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    background-color: #143355;
+    color: white;
+  }
+  
+  @media (max-width: 480px) {
+    .mainProyects {
+      min-height: 100vh;
+      margin: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainProyects {
+      min-height: 100vh;
+      margin: 1rem;
+    }
+  }
+  
