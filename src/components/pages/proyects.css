@@ -19,17 +19,17 @@
     color: white;
   }
   
-  @media (max-width: 480px) {
-    .mainProyects {
-      min-height: 100vh;
-      margin: 1rem;
-    }
-  }
   
   @media (max-width: 768px) {
-    .mainProyects {
-      min-height: 100vh;
-      margin: 1rem;
+      .mainProyects {
+          min-height: 100vh;
+          margin: 1rem;
+        }
     }
-  }
-  
+    
+    @media (max-width: 480px) {
+      .mainProyects {
+        min-height: 100vh;
+        margin: 1rem;
+      }
+    }

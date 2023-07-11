@@ -21,11 +21,11 @@ const Proyects = () => {
 
       height: "200vh",
       margin: "3rem",
-      "@media (max-width: 768px)": {
+      "@media (maxWidth: 768px)": {
         height: "200vh",
         margin: "1rem",
       },
-      "@media (max-width: 480px)": {
+      "@media (maxWidth: 480px)": {
         height: "300vh",
         margin: "1rem",
       }
