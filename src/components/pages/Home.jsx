@@ -49,15 +49,15 @@ export default function Home() {
                             }
                         }}
                     >
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={12}>
 
 
                             <div>
-                                <h1 >
+                                <h1 className="animated fadeInLeftBig">
                                     FrontEnd Developer Skills
                                 </h1>
-                                <h2>Lenguajes de programación</h2>
-                                <ul >
+                                <h2 className="animated fadeInLeftBig">Lenguajes de programación</h2>
+                                <ul className="scale-in-center">
                                     <li>
                                         <img src={HTML} height="50px" width="50px" alt="logo" />
                                         HTML

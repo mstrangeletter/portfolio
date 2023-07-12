@@ -10,7 +10,7 @@ export const AutotypeProvider = ({ children }) => {
       typingText.textContent = text.slice(0, i + 1);
       i++;
       if (i >= text.length) clearInterval(interval);
-    }, 200);
+    }, 100);
   }
 
   return (

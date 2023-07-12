@@ -2,6 +2,7 @@ import { Grid, TextField, Button, Typography, Snackbar } from "@mui/material";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { db } from "./firebase/Firebase";
 import { useState } from "react";
+import "../pages/contact.css";
 
 const Contact = () => {
   const [nombre, setNombre] = useState("");
@@ -49,7 +50,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div className="body_contact">
       <div>
         <Typography sx={{ mt: "3rem", fontWeight: "700" }} variant="h3">
           Contacto

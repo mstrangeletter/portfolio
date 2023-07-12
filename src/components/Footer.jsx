@@ -26,7 +26,7 @@ function Footer() {
     <div className="container-text">
       <footer>
         <Container maxWidth="sm">
-          <Typography variant="h4" align="center">WEBELOPER</Typography>
+          <Typography variant="h4" align="center">Webeloper</Typography>
           <Typography variant="body2" align="center">Este sitio está desarrollado con:</Typography>
           <Typography variant="body1" align="center">
             <span id="typing-text"></span>
@@ -34,6 +34,7 @@ function Footer() {
           <Typography className="container-subtext" variant="caption" color="info" align="center">
             Miguel Cartagena © {new Date().getFullYear()} All Rights Reserved
           </Typography>
+          
         </Container>
       </footer>
     </div>
